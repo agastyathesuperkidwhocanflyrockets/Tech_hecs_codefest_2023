@@ -13,15 +13,14 @@ print("Hello welcome to the game.\n"
 
 # The user is asked if he wants to play.
 while True:
-    ready = input("Are you ready? ").lower()
-    if ready == "yes":
+    if input("Are you ready? ").lower() == "yes":
         break
     else:
         print("Take your time it's fine.\n")
 
 
       
-# Game begins here
+# Game begins hereinput("Are you ready? ").lower()
 # The story is told.
 print("\n\n")
 print("You wake up in a dark isolated room...\n")
